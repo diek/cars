@@ -1,0 +1,701 @@
+[
+{
+  "model": "car.make",
+  "pk": 1,
+  "fields":
+  {
+    "make": "BMW"
+  }
+},
+{
+  "model": "car.make",
+  "pk": 2,
+  "fields":
+  {
+    "make": "CHEVROLET"
+  }
+},
+{
+  "model": "car.make",
+  "pk": 3,
+  "fields":
+  {
+    "make": "FORD"
+  }
+},
+{
+  "model": "car.make",
+  "pk": 4,
+  "fields":
+  {
+    "make": "KIA"
+  }
+},
+{
+  "model": "car.make",
+  "pk": 5,
+  "fields":
+  {
+    "make": "MITSUBISHI"
+  }
+},
+{
+  "model": "car.make",
+  "pk": 6,
+  "fields":
+  {
+    "make": "NISSAN"
+  }
+},
+{
+  "model": "car.make",
+  "pk": 7,
+  "fields":
+  {
+    "make": "SMART"
+  }
+},
+{
+  "model": "car.make",
+  "pk": 8,
+  "fields":
+  {
+    "make": "TESLA"
+  }
+},
+{
+  "model": "car.car",
+  "pk": 1,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 5,
+    "model": "i-MiEV",
+    "size": "SUBCOMPACT",
+    "year": 2012
+  }
+},
+{
+  "model": "car.car",
+  "pk": 2,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 6,
+    "model": "LEAF",
+    "size": "MID_SIZE",
+    "year": 2012
+  }
+},
+{
+  "model": "car.car",
+  "pk": 3,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 3,
+    "model": "FOCUS ELECTRIC",
+    "size": "COMPACT",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 4,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 5,
+    "model": "i-MiEV",
+    "size": "SUBCOMPACT",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 5,
+  "fields":
+  {
+    "base_color": "YELLOW",
+    "make": 6,
+    "model": "LEAF",
+    "size": "MID_SIZE",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 6,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 7,
+    "model": "FORTWO ELECTRIC DRIVE CABRIOLET",
+    "size": "TWO_SEATER",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 7,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 7,
+    "model": "FORTWO ELECTRIC DRIVE COUPE",
+    "size": "TWO_SEATER",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 8,
+  "fields":
+  {
+    "base_color": "YELLOW",
+    "make": 8,
+    "model": "MODEL S (40 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 9,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 8,
+    "model": "MODEL S (60 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 10,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 8,
+    "model": "MODEL S (85 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 11,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 8,
+    "model": "MODEL S PERFORMANCE",
+    "size": "FULL_SIZE",
+    "year": 2013
+  }
+},
+{
+  "model": "car.car",
+  "pk": 12,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 2,
+    "model": "SPARK EV",
+    "size": "SUBCOMPACT",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 13,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 3,
+    "model": "FOCUS ELECTRIC",
+    "size": "COMPACT",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 14,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 5,
+    "model": "i-MiEV",
+    "size": "SUBCOMPACT",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 15,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 6,
+    "model": "LEAF",
+    "size": "MID_SIZE",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 16,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 7,
+    "model": "FORTWO ELECTRIC DRIVE CABRIOLET",
+    "size": "TWO_SEATER",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 17,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 7,
+    "model": "FORTWO ELECTRIC DRIVE COUPE",
+    "size": "TWO_SEATER",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 18,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 8,
+    "model": "MODEL S (60 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 19,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 8,
+    "model": "MODEL S (85 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 20,
+  "fields":
+  {
+    "base_color": "YELLOW",
+    "make": 8,
+    "model": "MODEL S PERFORMANCE",
+    "size": "FULL_SIZE",
+    "year": 2014
+  }
+},
+{
+  "model": "car.car",
+  "pk": 21,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 1,
+    "model": "i3",
+    "size": "SUBCOMPACT",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 22,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 2,
+    "model": "SPARK EV",
+    "size": "SUBCOMPACT",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 23,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 3,
+    "model": "FOCUS ELECTRIC",
+    "size": "COMPACT",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 24,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 4,
+    "model": "SOUL EV",
+    "size": "STATIONWAGON_SMALL",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 25,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 5,
+    "model": "i-MiEV",
+    "size": "SUBCOMPACT",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 26,
+  "fields":
+  {
+    "base_color": "SILVER",
+    "make": 6,
+    "model": "LEAF",
+    "size": "MID_SIZE",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 27,
+  "fields":
+  {
+    "base_color": "YELLOW",
+    "make": 7,
+    "model": "FORTWO ELECTRIC DRIVE CABRIOLET",
+    "size": "TWO_SEATER",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 28,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 7,
+    "model": "FORTWO ELECTRIC DRIVE COUPE",
+    "size": "TWO_SEATER",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 29,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 8,
+    "model": "MODEL S (60 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 30,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 8,
+    "model": "MODEL S (70 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 31,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 8,
+    "model": "MODEL S (85/90 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 32,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 8,
+    "model": "MODEL S 70D",
+    "size": "FULL_SIZE",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 33,
+  "fields":
+  {
+    "base_color": "YELLOW",
+    "make": 8,
+    "model": "MODEL S 85D/90D",
+    "size": "FULL_SIZE",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 34,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 8,
+    "model": "MODEL S P85D/P90D",
+    "size": "FULL_SIZE",
+    "year": 2015
+  }
+},
+{
+  "model": "car.car",
+  "pk": 35,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 1,
+    "model": "i3",
+    "size": "SUBCOMPACT",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 36,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 2,
+    "model": "SPARK EV",
+    "size": "SUBCOMPACT",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 37,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 3,
+    "model": "FOCUS ELECTRIC",
+    "size": "COMPACT",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 38,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 4,
+    "model": "SOUL EV",
+    "size": "STATIONWAGON_SMALL",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 39,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 5,
+    "model": "i-MiEV",
+    "size": "SUBCOMPACT",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 40,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 6,
+    "model": "LEAF (24 kWh battery)",
+    "size": "MID_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 41,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 6,
+    "model": "LEAF (30 kWh battery)",
+    "size": "MID_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 42,
+  "fields":
+  {
+    "base_color": "SILVER",
+    "make": 7,
+    "model": "FORTWO ELECTRIC DRIVE CABRIOLET",
+    "size": "TWO_SEATER",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 43,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 7,
+    "model": "FORTWO ELECTRIC DRIVE COUPE",
+    "size": "TWO_SEATER",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 44,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 8,
+    "model": "MODEL S (60 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 45,
+  "fields":
+  {
+    "base_color": "YELLOW",
+    "make": 8,
+    "model": "MODEL S (70 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 46,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 8,
+    "model": "MODEL S (85/90 kWh battery)",
+    "size": "FULL_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 47,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 8,
+    "model": "MODEL S 70D",
+    "size": "FULL_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 48,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 8,
+    "model": "MODEL S 85D/90D",
+    "size": "FULL_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 49,
+  "fields":
+  {
+    "base_color": "YELLOW",
+    "make": 8,
+    "model": "MODEL S 90D (Refresh)",
+    "size": "FULL_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 50,
+  "fields":
+  {
+    "base_color": "RED",
+    "make": 8,
+    "model": "MODEL S P85D/P90D",
+    "size": "FULL_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 51,
+  "fields":
+  {
+    "base_color": "WHITE ",
+    "make": 8,
+    "model": "MODEL S P90D (Refresh)",
+    "size": "FULL_SIZE",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 52,
+  "fields":
+  {
+    "base_color": "BLACK ",
+    "make": 8,
+    "model": "MODEL X 90D",
+    "size": "SUV_STANDARD",
+    "year": 2016
+  }
+},
+{
+  "model": "car.car",
+  "pk": 53,
+  "fields":
+  {
+    "base_color": "BLUE",
+    "make": 8,
+    "model": "MODEL X P90D",
+    "size": "SUV_STANDARD",
+    "year": 2016
+  }
+}]
