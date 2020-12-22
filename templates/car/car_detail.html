@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    
+<p>
+    <a class="btn btn-light" href="{% url 'car_Car_list' %}">
+    Car Listing
+    </a>
+</p>
+    
+<table class="table">
+    <tr><td>year</td><td>{{ object.year }}</td></tr>
+    <tr><td>model</td><td>{{ object.model }}</td></tr>
+    <tr><td>base_color</td><td>{{ object.base_color }}</td></tr>
+    <tr><td>size</td><td>{{ object.size }}</td></tr>
+</table>
+<a class="btn btn-primary" href="{{object.get_update_url}}">Edit</a>
+
+{% endblock %}

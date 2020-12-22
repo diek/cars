@@ -1,0 +1,17 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    
+<p>
+    <a class="btn btn-light" href="{% url 'car_Make_list' %}">
+    Make Listing
+    </a>
+</p>
+    
+<table class="table">
+    <tr><td>make</td><td>{{ object.make }}</td></tr>
+</table>
+<a class="btn btn-primary" href="{{object.get_update_url}}">Edit</a>
+
+{% endblock %}
